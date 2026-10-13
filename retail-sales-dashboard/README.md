@@ -122,7 +122,8 @@ The app is deployment-ready as-is (single entry point `app.py`, pinned `requirem
 
 1. Push this project to a GitHub repo.
 2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**.
-3. Select the repo/branch, set main file to `app.py`, click **Deploy**.
+3. Select `gunnamrohith/MACHINE_LEARNING_PROJECT`, choose the `main` branch,
+   set the main file path to `retail-sales-dashboard/app.py`, and click **Deploy**.
 4. Share the generated `https://<app-name>.streamlit.app` link.
 
 For container platforms (Render, Railway, Hugging Face Spaces), the same `requirements.txt` plus `streamlit run app.py --server.port $PORT --server.address 0.0.0.0` works unchanged.
